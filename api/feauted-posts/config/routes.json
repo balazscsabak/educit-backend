@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/feauted-posts",
+      "handler": "feauted-posts.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/feauted-posts",
+      "handler": "feauted-posts.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/feauted-posts",
+      "handler": "feauted-posts.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

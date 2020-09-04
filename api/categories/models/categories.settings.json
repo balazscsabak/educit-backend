@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categories",
+  "info": {
+    "name": "category"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "cat_name": {
+      "type": "string",
+      "required": true
+    },
+    "cat_desc": {
+      "type": "text"
+    },
+    "color": {
+      "type": "string"
+    },
+    "font_color": {
+      "type": "string"
+    },
+    "posts": {
+      "collection": "post",
+      "via": "category"
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}

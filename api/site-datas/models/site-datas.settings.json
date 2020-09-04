@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "site_datas",
+  "info": {
+    "name": "Adatok"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "site_name": {
+      "type": "string"
+    },
+    "site_url": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "owner": {
+      "type": "string"
+    }
+  }
+}

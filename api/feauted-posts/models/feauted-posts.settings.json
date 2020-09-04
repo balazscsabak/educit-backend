@@ -1,0 +1,16 @@
+{
+  "kind": "singleType",
+  "collectionName": "featured_posts",
+  "info": {
+    "name": "Featured_posts"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "posts": {
+      "collection": "post"
+    }
+  }
+}

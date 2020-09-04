@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "subscribes",
+  "info": {
+    "name": "Subscribe"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "unsubscribe_link": {
+      "type": "string"
+    },
+    "html": {
+      "type": "text"
+    }
+  }
+}
