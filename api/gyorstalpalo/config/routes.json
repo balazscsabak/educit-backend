@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/gyorstalpalos",
+      "handler": "gyorstalpalo.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gyorstalpalos/count",
+      "handler": "gyorstalpalo.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gyorstalpalos/:id",
+      "handler": "gyorstalpalo.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/gyorstalpalos",
+      "handler": "gyorstalpalo.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/gyorstalpalos/:id",
+      "handler": "gyorstalpalo.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/gyorstalpalos/:id",
+      "handler": "gyorstalpalo.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

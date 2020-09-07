@@ -28,6 +28,10 @@
     },
     "slug": {
       "type": "string"
+    },
+    "featuredPosts": {
+      "columnName": "featuredPosts",
+      "collection": "post"
     }
   }
 }

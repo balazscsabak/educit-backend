@@ -2,7 +2,7 @@
   "kind": "singleType",
   "collectionName": "featured_posts",
   "info": {
-    "name": "Featured_posts"
+    "name": "Featured Posts"
   },
   "options": {
     "increments": true,
