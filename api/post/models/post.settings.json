@@ -41,16 +41,12 @@
       "maxLength": 100,
       "minLength": 10
     },
-    "slug": {
-      "type": "string",
-      "required": true,
-      "unique": true,
-      "maxLength": 100,
-      "minLength": 10
-    },
     "category": {
-      "via": "posts",
-      "model": "categories"
+      "model": "categories",
+      "via": "posts"
+    },
+    "description": {
+      "type": "text"
     }
   }
 }
