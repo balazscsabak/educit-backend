@@ -47,6 +47,10 @@
     },
     "description": {
       "type": "text"
+    },
+    "postedAt": {
+      "type": "datetime",
+      "required": true
     }
   }
 }
